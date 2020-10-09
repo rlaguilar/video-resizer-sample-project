@@ -24,11 +24,6 @@ class VideoResizer {
         writer.startWriting()
         writer.startSession(atSourceTime: .zero)
         
-        if let error = writer.error {
-            completion(.failure(error))
-            return
-        }
-        
         process(channels: channels) {
             if let error = reader.error {
                 completion(.failure(error))
