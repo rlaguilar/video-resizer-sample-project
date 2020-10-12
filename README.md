@@ -1,3 +1,3 @@
 # video-resizer-sample-project
 
-Sample project demonstrating bug when resizing video. In my real use case I need to process the audio track, so passing it through from the source to the destination without re-encoding it isn't an option for me. 
+Sample project demonstrating to resize a video. Used as a sample project for: https://stackoverflow.com/questions/64273790/avassetwriter-fails-only-in-ios-when-writing-audio-from-specific-videos
