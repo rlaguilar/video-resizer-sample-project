@@ -80,6 +80,7 @@ class VideoResizer {
     private func audioDecompressionSettings() -> [String: Any] {
         return [
             AVFormatIDKey: kAudioFormatLinearPCM
+            AVNumberOfChannelsKey: 2
         ]
     }
     
